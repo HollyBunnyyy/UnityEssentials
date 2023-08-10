@@ -6,8 +6,8 @@
 - **Advanced** files and scripts will use the new input system, and will usually involve multiple programming patterns and SOLID principles. 
 - Scripts are split into 2D and 3D respectively.
 
-<ins>A beginner-focused, first person camera for a 3D game would for instance be found in Scripts/Beginner/3D/.</ins>
+<ins>A beginner-focused, first person camera for a 3D game would for instance be found in Scripts/Beginner/3D/Camera/.</ins>
 
 ## Things not covered or utilized
-Dependency injection will not be used as most of the software available to do this in unity is 3rd party and costs money. Dependency inversion as a SOLID principle cannot be utilized very well as Unity doesn't serialize interfaces - you are more than free to implement Dependency Injection yourself, but expect some hard-coupled code in both beginner and advanced scripts alike.
+Dependency injection will not be used as most of the software available to do this in unity is 3rd party and costs money. Dependency inversion as a SOLID principle therefore cannot be utilized as Unity doesn't serialize interfaces - you are more than free to implement Dependency Injection yourself, but expect some hard-coupled code in both beginner and advanced scripts alike when viewing.
 
