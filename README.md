@@ -10,7 +10,7 @@
 
 - <code>Standalone</code> files and scripts are neither beginner nor advanced - they usually provide some type of utility or core function.
 
-> A beginner-focused, first person camera controller for a 3D game would for instance be found in Assets/Scripts/Beginner/3D/Camera/
+> A beginner-focused, first person camera controller for a 3D game would for instance be found in <code>Assets/Scripts/Beginner/3D/Camera/</code>
 
 ## Things not covered or utilized
 Dependency injection will not be used as most of the software available to do this in unity is 3rd party and costs money. Dependency inversion as a SOLID principle therefore cannot be utilized as Unity doesn't serialize interfaces - you are more than free to implement Dependency Injection yourself, but expect some hard-coupled code in both beginner and advanced scripts alike when viewing.
