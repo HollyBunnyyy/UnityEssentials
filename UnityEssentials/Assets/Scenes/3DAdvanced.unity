@@ -449,6 +449,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _inputHandler: {fileID: 1461322709}
+  _mouseSensitivity: 2
 --- !u!114 &1147182964
 MonoBehaviour:
   m_ObjectHideFlags: 0

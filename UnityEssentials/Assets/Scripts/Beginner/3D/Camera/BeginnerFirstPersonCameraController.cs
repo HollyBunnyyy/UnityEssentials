@@ -33,6 +33,7 @@ public class BeginnerFirstPersonCameraController : MonoBehaviour
         _mouseAxisDelta.x = Input.GetAxisRaw( "Mouse X" );
         _mouseAxisDelta.y = Input.GetAxisRaw( "Mouse Y" );
 
+        // Multiply the mouseAxis by our mouseSensitivity;
         _targetCameraRotation.x += _mouseAxisDelta.x * _mouseSensitivity;
         _targetCameraRotation.y -= _mouseAxisDelta.y * _mouseSensitivity;
 
