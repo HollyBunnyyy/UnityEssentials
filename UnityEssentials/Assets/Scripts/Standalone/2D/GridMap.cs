@@ -27,8 +27,8 @@ public class GridMap<T>
     {
         this.Width      = width;
         this.Height     = height;
-        this.CellGap    = cellSize;
-        this.CellSize   = cellGap;
+        this.CellGap    = cellGap;
+        this.CellSize   = cellSize;
 
         this._tileGrid  = new T[width, height];
 
