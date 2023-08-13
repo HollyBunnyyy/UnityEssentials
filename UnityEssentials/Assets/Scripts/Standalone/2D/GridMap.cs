@@ -14,6 +14,8 @@ public class GridMap<T>
     public Vector2 CellCenter   => CellArea / 2.0f;
     public Vector2 Origin       => new Vector2( Width * CellCenter.x, Height * CellCenter.y ) - CellCenter;
 
+    public int Size => Width * Height;
+
     private T[,] _tileGrid;
 
     public T this[int x, int y]
