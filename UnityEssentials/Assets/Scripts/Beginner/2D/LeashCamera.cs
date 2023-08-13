@@ -39,6 +39,7 @@ public class LeashCamera : MonoBehaviour
 
         // Simple little smoothing lerp to make it not feel as crazy fast.
         _smoothedFinalPosition = Vector3.Lerp( transform.position, _transformToFollow.position + _targetPosition, CameraSmoothing * Time.deltaTime );
+        _smoothedFinalPosition.z = _inputCamera.transform.position.z;
 
         transform.position = _smoothedFinalPosition;
 
